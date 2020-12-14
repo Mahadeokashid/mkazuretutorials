@@ -3,11 +3,12 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Move Data from txt to SQL",
+				"description": "Move Data from txt to SQL",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
-					"timeout": "7.00:00:00",
+					"timeout": "0.05:00:00",
 					"retry": 0,
 					"retryIntervalInSeconds": 30,
 					"secureOutput": false,
@@ -43,7 +44,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "countrymastertext",
+						"referenceName": "inouttext",
 						"type": "DatasetReference"
 					}
 				],
