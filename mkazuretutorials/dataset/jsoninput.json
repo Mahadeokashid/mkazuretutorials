@@ -1,0 +1,29 @@
+{
+	"name": "jsoninput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jsoninput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Json_Input.txt",
+				"container": "inputjsonfile"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"CountryCode": {
+					"type": "string"
+				},
+				"CountryName": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
