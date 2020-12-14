@@ -1,0 +1,31 @@
+ Volume in drive D has no label.
+ Volume Serial Number is 042D-95A1
+
+ Directory of D:\repos
+
+14-12-2020  13:37    <DIR>          .
+14-12-2020  13:37    <DIR>          ..
+11-12-2020  09:48    <DIR>          Angular
+29-11-2020  10:09    <DIR>          BotFramework-Emulator-4.11.0
+29-11-2020  10:08         3,197,060 BotFramework-Emulator-4.11.0.zip
+05-02-2020  17:17    <DIR>          DataBase_Scripts
+12-12-2020  09:50    <DIR>          html5
+07-08-2019  11:36    <DIR>          InterviewPreparation
+18-01-2020  10:27    <DIR>          JavaScript
+16-08-2020  07:46    <DIR>          MasteringTheCoding
+15-02-2020  19:35    <DIR>          MasterTheCoding
+14-12-2020  13:37    <DIR>          mkazuretutorials
+04-08-2019  17:40    <DIR>          MVCDemoWeb
+11-12-2020  09:56    <DIR>          my-first-app
+16-08-2020  07:46    <DIR>          PracticingCSharp
+05-02-2020  23:53    <DIR>          sample
+04-08-2019  18:16    <DIR>          SQL Server
+16-08-2020  07:47    <DIR>          SugarLevelTracker
+08-08-2019  08:42    <DIR>          ThrottlingSourceCode
+08-08-2019  08:40           135,104 ThrottlingSourceCode.zip
+07-02-2020  21:15    <DIR>          Udemy
+07-08-2019  12:23    <DIR>          WCFWebService
+16-08-2020  07:47    <DIR>          WebApplication1
+16-08-2020  07:47    <DIR>          WpfApp1
+               2 File(s)      3,332,164 bytes
+              22 Dir(s)  304,780,881,920 bytes free
