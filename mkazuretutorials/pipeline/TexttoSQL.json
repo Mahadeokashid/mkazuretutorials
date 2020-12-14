@@ -29,7 +29,7 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"preCopyScript": "truncate dbo.countrymaster",
+						"preCopyScript": "truncate table dbo.countrymaster",
 						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
