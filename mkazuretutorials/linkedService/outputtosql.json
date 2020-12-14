@@ -1,0 +1,13 @@
+{
+	"name": "outputtosql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "output SQL database",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=mkazuretutorialsserver.database.windows.net;initial catalog=mkazuretutorialsdb;user id=mahadeokashid",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk1LQVpVUkVUVVRPUklBTFNTUUxEQVRBRkFDVE9SWV9mZDc0MzE0OS1hMzczLTQyMGEtOWViMS0xMzE5ZWM3NmYwNTMiDQp9"
+		}
+	}
+}
