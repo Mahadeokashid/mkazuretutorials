@@ -1,0 +1,25 @@
+{
+	"name": "countrytable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputtosql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CountryCode",
+				"type": "varchar"
+			},
+			{
+				"name": "CountryName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CountryMaster"
+		}
+	}
+}
