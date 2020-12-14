@@ -1,0 +1,32 @@
+{
+	"name": "inouttext",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "inputtxt",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CountryMaster.txt",
+				"container": "input"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CountryCode",
+				"type": "String"
+			},
+			{
+				"name": "CountryName",
+				"type": "String"
+			}
+		]
+	}
+}
