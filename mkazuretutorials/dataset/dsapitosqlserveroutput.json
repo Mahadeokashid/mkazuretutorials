@@ -1,0 +1,16 @@
+{
+	"name": "dsapitosqlserveroutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputtosqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "apiusers"
+		}
+	}
+}
