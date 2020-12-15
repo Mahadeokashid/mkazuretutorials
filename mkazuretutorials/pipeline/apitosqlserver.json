@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "apitoazuresqlserver",
+				"name": "apitoazuredatamovement",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
