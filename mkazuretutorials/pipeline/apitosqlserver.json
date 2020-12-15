@@ -21,11 +21,22 @@
 						"requestInterval": "00.00:00:00.010",
 						"requestMethod": "GET"
 					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"preCopyScript": "truncate table dbo.apiusers;",
+						"disableMetricsCollection": false
+					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "dsinputrestapi",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "dsapitosqlserveroutput",
 						"type": "DatasetReference"
 					}
 				]
