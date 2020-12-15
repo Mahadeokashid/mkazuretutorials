@@ -23,10 +23,30 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"preCopyScript": "truncate table dbo.apiusers;",
 						"disableMetricsCollection": false
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['id']"
+								},
+								"sink": {
+									"name": "id"
+								}
+							},
+							{
+								"source": {
+									"path": "$['Column_1']"
+								},
+								"sink": {
+									"name": "name"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
