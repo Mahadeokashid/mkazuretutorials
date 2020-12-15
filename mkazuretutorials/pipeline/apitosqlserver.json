@@ -39,10 +39,50 @@
 							},
 							{
 								"source": {
-									"path": "$['Column_1']"
+									"path": "$['name']"
 								},
 								"sink": {
 									"name": "name"
+								}
+							},
+							{
+								"source": {
+									"path": "$['email']"
+								},
+								"sink": {
+									"name": "email"
+								}
+							},
+							{
+								"source": {
+									"path": "$['gender']"
+								},
+								"sink": {
+									"name": "gender"
+								}
+							},
+							{
+								"source": {
+									"path": "$['status']"
+								},
+								"sink": {
+									"name": "status"
+								}
+							},
+							{
+								"source": {
+									"path": "$['created_at']"
+								},
+								"sink": {
+									"name": "created_at"
+								}
+							},
+							{
+								"source": {
+									"path": "$['updated_at']"
+								},
+								"sink": {
+									"name": "updated_at"
 								}
 							}
 						]
