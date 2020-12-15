@@ -22,8 +22,13 @@
 						"requestMethod": "GET"
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"disableMetricsCollection": false
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureFileStorageWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -96,7 +101,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "dsapitosqlserveroutput",
+						"referenceName": "apidata",
 						"type": "DatasetReference"
 					}
 				]
